@@ -99,6 +99,7 @@ button {
   flex-direction: column;
   gap: 30px;
   padding: 20px;
+  width: 100vw;
 }
 
 .boxes {
@@ -138,19 +139,28 @@ button {
 }
 
 .section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #E5E7EB;
   padding: 20px;
+  width: 100vw;
 }
 
-blockquote {
-  font-size: 24px;
+.quote {
+  width: 600px;
+  font-size: 36px;
   font-style: italic;
   font-weight: lighter;
+  color: #1f2937;
 }
 
-#normal {
+.author
+ {
   font-weight: bold;
-  font-style: normal;
+  color: #1f2937;
+  text-align: right;
 }
 .section-three {
   background-color:#f9faf8 ;
@@ -167,7 +177,7 @@ blockquote {
   justify-content: center;
   flex-direction: column;
   border-radius: 10px;
-  width: 600px;
+  width: 800px;
 }
 
 .header {
@@ -198,6 +208,7 @@ footer{
   color: #e5e7eb;
   font-size: 12px;
   padding: 20px;
+  width: 100vw;
 
 }
 
