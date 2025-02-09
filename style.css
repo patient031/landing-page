@@ -1,6 +1,8 @@
 body{
-  margin: auto;
   font-family:"Roboto", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -186,5 +188,16 @@ button {
 
 button:hover {
   background-color: rgb(138, 127, 99);
+}
+
+footer{
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 12px;
+  padding: 20px;
+
 }
 
